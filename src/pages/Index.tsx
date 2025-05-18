@@ -116,6 +116,78 @@ const WebsiteCreator = () => {
         </div>
       </header>
 
+      {/* Почему выбирают нас */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-12 text-[#333]">
+            Почему выбирают нас
+          </h2>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
+                  <Icon name="Timer" size={28} className="text-[#333]" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2 text-[#333]">
+                  Скорость
+                </h3>
+                <p className="text-center text-[#555]">
+                  Мы ценим ваше время и всегда сдаем проекты в срок или даже
+                  раньше. Быстрый запуск вашего сайта — наш приоритет.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
+                  <Icon name="Award" size={28} className="text-[#333]" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2 text-[#333]">
+                  Качество
+                </h3>
+                <p className="text-center text-[#555]">
+                  Современный дизайн, чистый код и внимание к каждой детали. Ваш
+                  сайт будет не только красивым, но и функциональным.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
+                  <Icon name="Shield" size={28} className="text-[#333]" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2 text-[#333]">
+                  Надежность
+                </h3>
+                <p className="text-center text-[#555]">
+                  Мы остаемся на связи после запуска проекта и обеспечиваем
+                  техническую поддержку, чтобы ваш сайт всегда работал
+                  безупречно.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+              <CardContent className="pt-6">
+                <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
+                  <Icon name="DollarSign" size={28} className="text-[#333]" />
+                </div>
+                <h3 className="text-xl font-bold text-center mb-2 text-[#333]">
+                  Лучшая цена
+                </h3>
+                <p className="text-center text-[#555]">
+                  Прозрачное ценообразование без скрытых платежей. Предлагаем
+                  оптимальное соотношение цены и качества на рынке.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Тарифы */}
       <section id="plans" className="py-16 bg-white">
         <div className="container mx-auto px-4">
