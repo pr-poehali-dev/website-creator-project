@@ -76,8 +76,8 @@ const WebsiteCreator = () => {
 
   const contacts = {
     phone: "+7 (999) 123-45-67",
-    email: "info@webstudio.ru",
-    telegram: "@webstudio_support",
+    email: "m07057487@gmail.com",
+    telegram: "@Qwop0988",
   };
 
   return (
@@ -85,7 +85,7 @@ const WebsiteCreator = () => {
       {/* Шапка */}
       <header className="container mx-auto pt-8 pb-12 px-4">
         <div className="flex justify-between items-center mb-16">
-          <h1 className="text-3xl font-bold text-[#333]">WebStudio</h1>
+          <h1 className="text-3xl font-bold text-[#333]">WFY</h1>
           <div className="flex gap-6">
             <a href="#plans" className="font-medium hover:underline">
               Услуги
@@ -219,7 +219,7 @@ const WebsiteCreator = () => {
 
           <div className="max-w-2xl mx-auto">
             <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300 text-center animate-[pulse_3s_ease-in-out_infinite]">
+              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300 text-center hover:scale-105 transition-transform">
                 <CardContent className="pt-6">
                   <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
                     <Icon name="Mail" size={28} className="text-[#333]" />
@@ -229,7 +229,7 @@ const WebsiteCreator = () => {
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300 text-center animate-[bounce_3s_ease-in-out_infinite]">
+              <Card className="border-0 shadow-md hover:shadow-lg transition-shadow duration-300 text-center hover:scale-105 transition-transform">
                 <CardContent className="pt-6">
                   <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-[#ffca86] rounded-full">
                     <Icon name="Send" size={28} className="text-[#333]" />
